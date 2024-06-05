@@ -1,0 +1,14 @@
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\bin\Debug\net6.0\Curso de Net.exe
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\bin\Debug\net6.0\Curso de Net.deps.json
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\bin\Debug\net6.0\Curso de Net.runtimeconfig.json
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\bin\Debug\net6.0\Curso de Net.dll
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\bin\Debug\net6.0\Curso de Net.pdb
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\obj\Debug\net6.0\Curso de Net.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\obj\Debug\net6.0\Curso de Net.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\obj\Debug\net6.0\Curso de Net.AssemblyInfo.cs
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\obj\Debug\net6.0\Curso de Net.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\obj\Debug\net6.0\Curso de Net.dll
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\obj\Debug\net6.0\refint\Curso de Net.dll
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\obj\Debug\net6.0\Curso de Net.pdb
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\obj\Debug\net6.0\Curso de Net.genruntimeconfig.cache
+C:\Users\PC\Desktop\Udemy C# y .NET\Curso de Net\Curso de Net\obj\Debug\net6.0\ref\Curso de Net.dll
