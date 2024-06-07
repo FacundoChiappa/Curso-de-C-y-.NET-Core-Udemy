@@ -12,9 +12,9 @@ namespace curso_de_net //nombre del directorio donde se almacena el codigo
 
             Console.WriteLine("Curso de C# y .NET realizado en el " + year); //concatenacion de string con entero mediante el "+"
 
-            Console.WriteLine("Curso de C# y .NET realizado en el {0}" , year); //concatenacion de string con entero mediante el ","
-                                                                                //y con el {0} se muestra la variable que le sigue a la coma
-                                                                                //que en este caso es 0, si se pone otra coma y otro int, es el 1.
+            Console.WriteLine("Curso de C# y .NET realizado en el {0}", year); //concatenacion de string con entero mediante el ","
+                                                                               //y con el {0} se muestra la variable que le sigue a la coma
+                                                                               //que en este caso es 0, si se pone otra coma y otro int, es el 1.
 
             int string_a_entero = Convert.ToInt16("2024");  //convertir datos del tipo string a entero con la cadena de valores .toint16
             double doble = 2.5; //dato de tipo double es para usar numero con coma
@@ -35,7 +35,7 @@ namespace curso_de_net //nombre del directorio donde se almacena el codigo
             bool valor = true;  //booleano que solo almaceba el valor de false
             char letra = 'A';  //solo puede almacer un solo caracter, siempre comilla simple, comilla doble solo para strings o cadenas de texto
             Decimal de = 9.6M;  //estructura para crear objetos del tipo decimales.  
-            
+
 
             Console.WriteLine("Curso de C# y .NET realizado? {0}, calificacion del curso {1}, en numeros {2}", valor, letra, de);
 
@@ -45,11 +45,11 @@ namespace curso_de_net //nombre del directorio donde se almacena el codigo
             var suma = valor2 + valor3; //objeto local llamado suma creado con el var. si se le asigna operacion,
                                         //no se le debe dejar en claro si va a ser un resultado entero o no.
             var resta = valor2 - valor3; //objeto local llamado suma creado con el var. si se le asigna operacion,
-                                        //no se le debe dejar en claro si va a ser un resultado entero o no.
+                                         //no se le debe dejar en claro si va a ser un resultado entero o no.
             var multiplicacion = valor2 * valor3;
             var division = valor3 / valor2;
 
-            Console.WriteLine(" Resultado suma = {0}, resultado resta = {1}, multiplicacion = {2}, division = {3}",suma, resta, multiplicacion, division);
+            Console.WriteLine(" Resultado suma = {0}, resultado resta = {1}, multiplicacion = {2}, division = {3}", suma, resta, multiplicacion, division);
 
 
             int valor9 = 1;
@@ -69,12 +69,60 @@ namespace curso_de_net //nombre del directorio donde se almacena el codigo
             var data = valor11 < valor12;
 
             Console.WriteLine("Resultado {0}", data);
-            Console.ReadLine(); //mantiene la consola abierta mientras se muestra el texto
+            
+
+            int valor13 = 4;
+            int valor14 = 2;
+
+            var data1 = valor13 == valor14;  //operador de igualdad == compara si los resultados son iguales y devuelve true o false
+            var data2 = valor13 != valor14;  //operador de desigualdad != compara si los resultados son distintos y devuelve true o false    
+
+            Console.WriteLine("Resultado {0}", data1);
+
+
+            int valor15 = 4;
+            int valor16 = 2;
+            double valor17 = 10;
+            double valor18 = 10;
+
+            var data3 = valor15 == valor16;
+
+            if (valor17 == valor18)  //si tengo el true, se ejecuta el bloque de codigo       //la variable que esta en el if, puede ser false o true o una operacion
+                                     //si tengo el false, no se ejecuta el bloque de codigo
+            {
+                Console.WriteLine("Resultado {0}", data1); 
+            }
+
+            if (valor16 != valor15 && valor15 == valor16)  //&& operador AND, para que se ejecute el bloque de codigo, ambas condiciones deben dar TRUE
+                                                           //si dan false, no se ejecuta el bloque de codigo, en este caso no se ejecuta el bloque.
+            {
+                Console.WriteLine("Resultado {0}", data1);
+            }
+
+            if (valor16 != valor15 || valor15 == valor16)  //|| operador OR, para que se ejecute el bloque de codigo, ambas condiciones deben dar TRUE
+                                                           //si dan false, no se ejecuta el bloque de codigo, en este caso no se ejecuta el bloque.
+            {
+                Console.WriteLine("Resultado {0}", data1);
+            }
+
+            if (valor16 != valor15 || valor15 == valor16)
+            {
+                Console.WriteLine("Se cumplio la condicion");
+            }
+            else
+            {
+                Console.WriteLine("No se cuimplio la condicion ");
+            }
+
+
+
+            Console.ReadLine(); //para que la consola no se cierre al ejecutar el programa, se debe poner esta linea de codigo.
+
         }
 
-        
 
     }
+     
 }
 
 
